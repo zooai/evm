@@ -34,5 +34,5 @@ jobs:
         with:
           push: true
           tags: |
-            ghcr.io/zooai/evm:${{ github.ref_name }}
-            ghcr.io/zooai/evm:${{ github.sha }}
+            ghcr.io/zoo-labs/evm:${{ github.ref_name }}
+            ghcr.io/zoo-labs/evm:${{ github.sha }}

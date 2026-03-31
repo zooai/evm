@@ -1,4 +1,4 @@
-module github.com/zooai/evm
+module github.com/zoo-labs/evm
 
 go 1.26.1
 
