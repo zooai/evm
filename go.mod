@@ -11,6 +11,15 @@ require (
 )
 
 require (
+	filippo.io/edwards25519 v1.2.0 // indirect
+	github.com/ChainSafe/go-schnorrkel v1.1.0 // indirect
+	github.com/cosmos/go-bip39 v1.0.0 // indirect
+	github.com/gtank/merlin v0.1.1 // indirect
+	github.com/gtank/ristretto255 v0.2.0 // indirect
+	github.com/mimoo/StrobeGo v0.0.0-20220103164710-9a04d6ca976b // indirect
+)
+
+require (
 	github.com/ALTree/bigfloat v0.2.0 // indirect
 	github.com/DataDog/zstd v1.5.7 // indirect
 	github.com/Microsoft/go-winio v0.6.2 // indirect
@@ -113,7 +122,7 @@ require (
 	github.com/luxfi/mock v0.1.1 // indirect
 	github.com/luxfi/net v0.0.4 // indirect
 	github.com/luxfi/p2p v1.19.2 // indirect
-	github.com/luxfi/precompile v0.4.11 // indirect
+	github.com/luxfi/precompile v0.5.6
 	github.com/luxfi/protocol v0.0.3 // indirect
 	github.com/luxfi/resource v0.0.1 // indirect
 	github.com/luxfi/corona v0.2.0 // indirect

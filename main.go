@@ -2,7 +2,7 @@
 // See the file LICENSE for licensing terms.
 
 // zoo-evm is the Zoo Network node -- a sovereign L1/L2 on the Lux Network
-// running the standard Lux EVM (no custom precompiles).
+// running the Lux EVM with all PQ crypto, threshold sigs, and AI precompiles.
 //
 // Usage:
 //
@@ -29,6 +29,28 @@ import (
 	luxversion "github.com/luxfi/version"
 	"github.com/spf13/pflag"
 	"golang.org/x/term"
+
+	// Zoo precompiles -- blank imports trigger init() registration.
+
+	// Post-quantum cryptography (NIST PQC standards)
+	_ "github.com/luxfi/precompile/blake3"
+	_ "github.com/luxfi/precompile/mldsa"
+	_ "github.com/luxfi/precompile/mlkem"
+	_ "github.com/luxfi/precompile/pqcrypto"
+	_ "github.com/luxfi/precompile/slhdsa"
+
+	// Threshold signatures
+	_ "github.com/luxfi/precompile/cggmp21"
+	_ "github.com/luxfi/precompile/frost"
+	_ "github.com/luxfi/precompile/corona"
+
+	// Curves
+	_ "github.com/luxfi/precompile/ed25519"
+	_ "github.com/luxfi/precompile/secp256r1"
+	_ "github.com/luxfi/precompile/sr25519"
+
+	// DEX precompile (V4 pool manager at 0x9010)
+	_ "github.com/luxfi/precompile/dex"
 )
 
 // version is the zoo-evm release version.
