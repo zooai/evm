@@ -100,14 +100,14 @@ require (
 	github.com/luxfi/compress v0.0.5 // indirect
 	github.com/luxfi/concurrent v0.0.3 // indirect
 	github.com/luxfi/consensus v1.22.70 // indirect
-	github.com/luxfi/constants v1.4.4 // indirect
+	github.com/luxfi/constants v1.4.6 // indirect
 	github.com/luxfi/container v0.0.4 // indirect
 	github.com/luxfi/crypto v1.17.44 // indirect
 	github.com/luxfi/database v1.17.44 // indirect
 	github.com/luxfi/fhe v1.7.6 // indirect
 	github.com/luxfi/filesystem v0.0.1 // indirect
 	github.com/luxfi/formatting v1.0.1 // indirect
-	github.com/luxfi/genesis v1.6.2 // indirect
+	github.com/luxfi/genesis v1.7.1 // indirect
 	github.com/luxfi/geth v1.16.77 // indirect
 	github.com/luxfi/go-bip32 v1.0.2 // indirect
 	github.com/luxfi/go-bip39 v1.1.2 // indirect
