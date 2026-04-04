@@ -64,7 +64,7 @@ const header = `
  /___| \___/ \___/
 `
 
-// Treasury address placeholder. Deploy from m/44'/60'/0'/0/0 of ZOO_MNEMONIC.
+// Treasury address placeholder. Deploy from m/44'/60'/0'/0/0 of MNEMONIC.
 // Genesis alloc uses 0x0000000000000000000000000000000000000000 until real
 // treasury address is derived.
 
