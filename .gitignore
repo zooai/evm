@@ -2,3 +2,6 @@ zoo-evm
 *.exe
 .idea/
 .vscode/
+
+# compiled binary — build output, never commit (was 67MB of this repo)
+/evm
