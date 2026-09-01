@@ -3,7 +3,7 @@ module github.com/zoo-labs/evm
 go 1.26.4
 
 require (
-	github.com/luxfi/evm v1.104.10
+	github.com/luxfi/evm v1.104.50
 	github.com/luxfi/node v1.36.15
 	github.com/luxfi/version v1.0.1
 	github.com/spf13/pflag v1.0.10
@@ -47,30 +47,30 @@ require (
 	github.com/gtank/merlin v0.1.1 // indirect
 	github.com/gtank/ristretto255 v0.2.0 // indirect
 	github.com/hanzoai/vfs v0.4.3 // indirect
-	github.com/hanzos3/go-sdk v1.0.2 // indirect
+	github.com/hanzos3/crc64nvme v1.1.2 // indirect
+	github.com/hanzos3/go v1.0.2 // indirect
+	github.com/hanzos3/md5-simd v1.1.3 // indirect
 	github.com/klauspost/crc32 v1.3.0 // indirect
 	github.com/luxfi/age v1.6.0 // indirect
-	github.com/luxfi/chains v1.7.7 // indirect
+	github.com/luxfi/chains v1.7.38 // indirect
 	github.com/luxfi/codec v1.2.1 // indirect
 	github.com/luxfi/corona v0.10.4 // indirect
 	github.com/luxfi/crypto/ipa v1.2.4 // indirect
-	github.com/luxfi/dex v1.14.0 // indirect
+	github.com/luxfi/dex v1.14.2 // indirect
 	github.com/luxfi/dkg v0.3.5 // indirect
 	github.com/luxfi/genesis/pkg/genesis/security v1.13.8 // indirect
-	github.com/luxfi/gpu v1.0.1 // indirect
+	github.com/luxfi/gpu v1.1.2 // indirect
 	github.com/luxfi/lens v0.2.1 // indirect
 	github.com/luxfi/magnetar v1.2.3 // indirect
 	github.com/luxfi/mdns v0.1.1 // indirect
 	github.com/luxfi/mlwe v0.3.0 // indirect
-	github.com/luxfi/pq v1.1.0 // indirect
+	github.com/luxfi/pq v1.1.2 // indirect
 	github.com/luxfi/proto v1.4.2 // indirect
 	github.com/luxfi/pulsar v1.9.2 // indirect
 	github.com/luxfi/zap v1.2.6 // indirect
 	github.com/luxfi/zwing v0.6.1 // indirect
 	github.com/miekg/dns v1.1.72 // indirect
 	github.com/mimoo/StrobeGo v0.0.0-20220103164710-9a04d6ca976b // indirect
-	github.com/minio/crc64nvme v1.1.1 // indirect
-	github.com/minio/md5-simd v1.1.2 // indirect
 	github.com/philhofer/fwd v1.2.0 // indirect
 	github.com/rs/xid v1.6.0 // indirect
 	github.com/shopspring/decimal v1.4.0 // indirect
@@ -148,23 +148,23 @@ require (
 	github.com/klauspost/cpuid/v2 v2.3.0 // indirect
 	github.com/kr/pretty v0.3.1 // indirect
 	github.com/kr/text v0.2.0 // indirect
-	github.com/luxfi/accel v1.2.4 // indirect
+	github.com/luxfi/accel v1.3.2 // indirect
 	github.com/luxfi/address v1.1.1 // indirect
-	github.com/luxfi/api v1.1.1 // indirect
+	github.com/luxfi/api v1.1.9 // indirect
 	github.com/luxfi/atomic v1.0.0 // indirect
 	github.com/luxfi/cache v1.3.1 // indirect
 	github.com/luxfi/compress v0.1.1 // indirect
 	github.com/luxfi/concurrent v0.1.1 // indirect
-	github.com/luxfi/consensus v1.36.2 // indirect
+	github.com/luxfi/consensus v1.36.81 // indirect
 	github.com/luxfi/constants v1.6.2 // indirect
-	github.com/luxfi/container v0.2.1 // indirect
-	github.com/luxfi/crypto v1.20.2 // indirect
-	github.com/luxfi/database v1.21.1 // indirect
+	github.com/luxfi/container v0.2.2 // indirect
+	github.com/luxfi/crypto v1.20.5 // indirect
+	github.com/luxfi/database v1.21.5 // indirect
 	github.com/luxfi/fhe v1.11.1 // indirect
 	github.com/luxfi/filesystem v0.0.1 // indirect
 	github.com/luxfi/formatting v1.1.1 // indirect
 	github.com/luxfi/genesis v1.16.2 // indirect
-	github.com/luxfi/geth v1.20.1 // indirect
+	github.com/luxfi/geth v1.20.2 // indirect
 	github.com/luxfi/go-bip32 v1.1.0 // indirect
 	github.com/luxfi/go-bip39 v1.2.0 // indirect
 	github.com/luxfi/ids v1.3.2 // indirect
@@ -178,14 +178,14 @@ require (
 	github.com/luxfi/mock v0.1.1 // indirect
 	github.com/luxfi/net v0.1.1 // indirect
 	github.com/luxfi/p2p v1.22.1 // indirect
-	github.com/luxfi/precompile v0.19.3
+	github.com/luxfi/precompile v0.19.8
 	github.com/luxfi/resource v0.1.1 // indirect
 	github.com/luxfi/rpc v1.1.0 // indirect
 	github.com/luxfi/runtime v1.3.1 // indirect
 	github.com/luxfi/sampler v1.1.0 // indirect
 	github.com/luxfi/staking v1.6.1 // indirect
 	github.com/luxfi/sys v0.1.0 // indirect
-	github.com/luxfi/threshold v1.12.3 // indirect
+	github.com/luxfi/threshold v1.12.6 // indirect
 	github.com/luxfi/timer v1.1.1 // indirect
 	github.com/luxfi/tls v1.1.1 // indirect
 	github.com/luxfi/trace v1.2.1 // indirect
@@ -193,9 +193,9 @@ require (
 	github.com/luxfi/utils v1.3.1 // indirect
 	github.com/luxfi/utxo v0.5.8 // indirect
 	github.com/luxfi/validators v1.3.1 // indirect
-	github.com/luxfi/vm v1.3.1 // indirect
+	github.com/luxfi/vm v1.3.16 // indirect
 	github.com/luxfi/warp v1.24.1 // indirect
-	github.com/luxfi/zapdb v1.10.1 // indirect
+	github.com/luxfi/zapdb v1.10.6 // indirect
 	github.com/mattn/go-colorable v0.1.15 // indirect
 	github.com/mattn/go-isatty v0.0.22 // indirect
 	github.com/minio/sha256-simd v1.0.1 // indirect
