@@ -1,6 +1,6 @@
 module github.com/zoo-labs/evm
 
-go 1.26.4
+go 1.27.1
 
 require (
 	github.com/luxfi/evm v1.104.50
